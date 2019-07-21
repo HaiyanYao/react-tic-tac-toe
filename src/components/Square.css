@@ -1,0 +1,24 @@
+.square {
+    height: 60px;
+    width: 60px;
+    background-color: aquamarine;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    padding: 6px;
+    font-weight: bold;
+    font-size: 150%;
+    color: #3B3B98;
+}
+
+/* .square:hover {
+    background-color: aqua;
+}
+
+.square:focus {
+    background-color: #ffd700;
+} */
+
+.square:focus, .square:active {
+    outline: 0;
+    box-shadow: none !important;
+}
